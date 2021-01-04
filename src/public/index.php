@@ -131,7 +131,7 @@ $animal[0][0][1] = "Gato";
 $animal[0][0][2] = "Lombriz";
 $animal[1][0][0] = "Burro";
 $animal[1][0][1] = "Murciélago";
-$animal[1][0][2] = "Cocodrilo";
+$animal[1][0][3] = "Cocodrilo";
 echo $animal[1][0][1];
 echo $animal[0][0][0];
 
