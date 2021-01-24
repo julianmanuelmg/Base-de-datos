@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Registro</title>
+<link rel="stylesheet" href="/css/main.css">
+</head>
+
+  <body>
+  <div class="formulario registro">
+   <h1>Registro</h1>
+    <form action="/registro" method="post">
+
+    <div class="element-container container-first_name">
+      <label for="first_name">First Name:</label>
+      <input type="text" name="first_name" class="text name">
+    </div>
+    <div class="element-container container-last_name">
+      <label for="last_name">Last Name:</label>
+      <input type="text" name="last_name" class="text last_name">
+    </div>
+    <div class="element-container container-nacionalidad">
+       <label for="nacionalidad" class="label label-nacionalidad">Nacionalidad:</label>
+      
+       <div class="container-nacionalidad"> 
+       <select name="nacionalidad" id="nacionalidad" class="center select-nacionalidad">
+       <option value="eeuu">eeuu</option>
+       <option value="rusia">rusia</option>
+       <option value="venezuela">venezuela</option>
+       <option value="colombia">colombia</option>
+       </select>
+    </div>
+
+    <div class="element-container container-password">
+      <label for="password">Password:</label>
+      <input type="password" name="password" class="text password">
+    </div>
+    </form>
+  </div>
+  </body>
+
+
+</html>

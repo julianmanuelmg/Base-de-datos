@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(231, 240, 180);
+    margin: o auto;
+}
+
+  h1 {
+       color: hsl(0, 58%, 37%);
+       font-size: 45px;
+       margin: o auto;
+       
+    }
+  p {
+      color: rgb(31, 34, 31);
+      margin: o auto;
+      
+    }
+    .text {
+        
+        border: rgb(50, 146, 71) 1px solid; 
+        
+        width: 300px
+    }
+.formulario{
+  border: 1px solid black;
+  width: 400px;
+  background: #ecf0ed;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+}
+.registro h1{
+  color:rgb(185, 42, 42);
+}
+.label {
+  width: 20%;
+  display: inline-block;
+  min-width: 90px;
+}
+.container{
+  width: 50; display: inline-block;
+}
+.center {
+  margin: 0 auto;
+
+}
+.select-nacionalidad {
+  display: block;
+}
+.element-container {
+margin-bottom: 20px;
+display: block;
+}
+
+
